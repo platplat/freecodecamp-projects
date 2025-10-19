@@ -1,6 +1,6 @@
 # 🌌 Celestial Bodies Database (FreeCodeCamp Project)
 
-This repository contains a SQL database for storing information about celestial bodies and their orbital relationships. It provides a structured schema for galaxies, stars, planets, moons, and the relationships between them.
+For this project, I built a database of celestial bodies using PostgreSQL.
 
 ## 🧱 Database Schema
 
