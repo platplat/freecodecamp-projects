@@ -1,7 +1,6 @@
 # 🏆 World Cup Database (FreeCodeCamp Project)
 
-A PostgreSQL project that builds and populates a **World Cup results database** from CSV data.  
-The goal is to design a relational schema, enforce data integrity with constraints and keys, and automate data loading using Bash scripts.
+For this project, I created a Bash script that enters information from CSV file (containing World Cup games data) into PostgreSQL, then another script that queries the database for useful statistics.
 
 ---
 
