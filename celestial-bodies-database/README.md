@@ -1,6 +1,8 @@
-# 🌌 Celestial Bodies Database (FreeCodeCamp Project)
+# 🌌 Celestial Bodies Database (freeCodeCamp Project)
 
 For this project, I built a database of celestial bodies using PostgreSQL.
+
+---
 
 ## 🧱 Database Schema
 
