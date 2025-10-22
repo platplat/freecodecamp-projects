@@ -2,6 +2,7 @@
 For this project, I have created a Bash script to get information about chemical elements from a periodic table database.
 
 ---
+
 ## 🧱 Database Schema
 ### `elements` table
 | Column | Type | Constraints | Description |
@@ -22,3 +23,10 @@ For this project, I have created a Bash script to get information about chemical
 | melting_point_celsius | NUMERIC | NOT NULL | Melting point of element in celsius |
 | boiling_point_celsius | NUMERIC | NOT NULL | Boiling point of element in celsius |
 | type_id | INT | NOT NULL, REFERENCES `types(type_id)` | Atomic number of element |
+
+---
+
+## ⚙ Scripts
+### 1. `element.sh`
+`element.sh <element>` queries the database and displays information about an element,
+where `<element>` is the name, symbol or atomic number of an element.
