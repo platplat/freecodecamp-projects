@@ -2,6 +2,8 @@
 
 For this project, I have created an interactive Bash program that uses PostgreSQL to track the customers and appointments for a salon.
 
+---
+
 ## 🧱 Database Schema
 
 ### `customers` table
@@ -24,6 +26,8 @@ For this project, I have created an interactive Bash program that uses PostgreSQ
 | customer_id | INT | REFERENCES `customers(customer_id)` | ID of customer |
 | service_id | INT | REFERENCES `services(service_id)` | ID of service |
 | time | VARCHAR(10) | | Appointment time |
+
+---
 
 ## ⚙ Scripts
 ### 1. `salon.sh`
