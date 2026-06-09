@@ -1,4 +1,4 @@
-# freeCodeCamp(🔥) Projects 
+# Relational Database Projects 
 
 ## Collection of basic projects completed through freecodecamp.org
 
